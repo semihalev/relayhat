@@ -975,7 +975,7 @@
 								<td>
 									<div class="field">
 										<input id="switchColorSuccess_{{$index}}" type="checkbox" name="switchColorSuccess_{{$index}}" class="switch is-success" ng-model="port.status" ng-click="setStatus($index)">
-										<label for="switchColorSuccess_{{$index}}">{{portStatus(port)}}</label>
+										<label for="switchColorSuccess_{{$index}}">{{portStatus(port.status)}}</label>
 									</div>
 								</td>
 								<td ng-if="!port.edit"><a class="button is-info is-outlined" ng-click="port.edit=true"><span>Edit</span></a></td>
