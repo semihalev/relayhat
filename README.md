@@ -1,6 +1,6 @@
-## Relay HAT
+# Relay HAT
 
-# Build
+### Build
 ```
 GOARM=7 GOARCH=arm GOOS=linux go build
 ```
